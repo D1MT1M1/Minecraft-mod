@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " S ",
+    "GAG",
+    " S "
+  ],
+  "key": {
+    "S": "minecraft:sugar",
+    "G": "minecraft:gold_nugget",
+    "A": "minecraft:golden_apple"
+  },
+  "result": {
+    "id": "psychoroulette:miracle_pill",
+    "count": 2
+  }
+}

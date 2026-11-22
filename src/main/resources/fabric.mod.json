@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "psychoroulette",
+  "version": "${version}",
+  "name": "Psycho-Roulette",
+  "description": "Каждые 5 минут выдает случайное психическое заболевание (20 диагнозов, скрытые диагнозы, комбо-обострения, HUD-рулетка, таблетки и рероллы).",
+  "authors": [
+    "Psycho-Roulette"
+  ],
+  "license": "MIT",
+  "icon": "assets/psychoroulette/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.psychoroulette.PsychoRouletteMod"
+    ],
+    "client": [
+      "com.psychoroulette.client.PsychoRouletteClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

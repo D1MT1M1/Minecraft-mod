@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " R ",
+    "GEG",
+    " R "
+  ],
+  "key": {
+    "R": "minecraft:redstone",
+    "G": "minecraft:gold_ingot",
+    "E": "minecraft:ender_pearl"
+  },
+  "result": {
+    "id": "psychoroulette:reroll_token",
+    "count": 1
+  }
+}
